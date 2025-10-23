@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.wow {
+    margin: 0px;
+}
+
+.otsikko {
+    background-color: aliceblue;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 10px 10px
+}
+
+.logo {
+    float: left;
+    width: 70%;
+}
+
+.menu{
+    float: right;
+    width: 30%;
+}
+
+.menu .menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-list .menu-list-items {
+    padding: 0.5rem 1rem;
+} 
+
+.keho {
+    overflow: auto;
+}
+
+.hometeksti {
+    background-color: white;
+    padding: 500px 30px 500px 30px;
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+}
+
+.home1{
+    float: left;
+    width: 20%;
+}
+
+.home2 {
+    float: right;
+    width: 80%;
+}
+
+.aboutteksti {
+    background-color: lightsteelblue;
+    padding: 30px;
+    text-align: center;
+    border-radius: 30px 30px;
+    background-image: url(cssimage/R.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.projectsteksti {
+    background-color: white;
+    padding: 200px 30px 200px 30px;
+    text-align: center;
+    overflow: auto;
+}
+
+.projekti1 {
+    background-color: bisque;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    width: 50%;
+    border: 25px, solid, white;
+    border-radius: 50px 50px;
+}
+
+.projekti2 {
+    background-color: bisque;
+    padding: 50px;
+    text-align: center;
+    float: right;
+    width: 50%;
+    border: 25px, solid, white;
+    border-radius: 50px 50px;
+}
+
+.projekti3 {
+    background-color: bisque;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    width: 50%;
+    border: 25px, solid, white;
+    border-radius: 50px 50px;
+}
+
+.projekti4 {
+    background-color: bisque;
+    padding: 50px;
+    text-align: center;
+    float: right;
+    width: 50%;
+    border: 25px, solid, white;
+    border-radius: 50px 50px;
+}
+
+.skillsteksti {
+    background-color: lightsteelblue;
+    padding: 30px;
+    text-align: center;
+    border-radius: 30px 30px;
+    background-image: url(cssimage/B.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contactsteksti {
+    background-color: white;
+    padding: 200px 30px 200px 30px;
+    text-align: center;
+    overflow: auto;
+}
+
+.contact1 {
+    background-color: darkgray;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    width: 50%;
+    border: 25px, solid, white;
+    border-radius: 50px 50px;
+}
+
+.contact2 {
+    background-color: darkgray;
+    padding: 50px;
+    text-align: center;
+    float: right;
+    width: 50%;
+    border: 25px, solid, white;
+    border-radius: 50px 50px;
+}
+
+.contact3 {
+    background-color: darkgray;
+    padding: 50px;
+    text-align: center;
+    float: left;
+    width: 50%;
+    border: 25px, solid, white;
+    border-radius: 50px 50px;
+}
+
+.contact4 {
+    background-color: darkgray;
+    padding: 50px;
+    text-align: center;
+    float: right;
+    width: 50%;
+    border: 25px, solid, white;
+    border-radius: 50px 50px;
+}
+
+.teksti {
+    background-color: purple;
+    padding: 10px;
+    border: 2px, double, black;
+}
+
+footer {
+    background-color: aliceblue;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 10px 10px;
+    text-align: center;
+    overflow: auto;
+}

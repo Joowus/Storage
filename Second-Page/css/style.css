@@ -1,0 +1,32 @@
+
+.active ~ a{
+    font-weight: bold;
+}
+
+main p{
+    color: green;
+}
+
+main > p{
+    text-decoration: underline;
+}
+
+a:visited{
+    color: brown;
+}
+
+a.active:visited{
+    color: saddlebrown;
+}
+
+a:hover{
+    background-color: fuchsia;
+}
+
+a:active{
+    background-color: yellow;
+}
+
+a:focus{
+    background-color: lightcoral;
+}
