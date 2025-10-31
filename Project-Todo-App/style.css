@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(255, 65, 93);
+}
+
+.appcontainer{
+    padding: 10% 30% 10% 30%;
+    overflow: auto;
+}
+
+.app {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px 20px;
+    border: 3px solid black;
+    text-align: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.btn-link {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+    float: right;
+}
+
+ul.todo {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.todo li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    position: relative;
+}
+
+form.add input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form.add input[type="submit"] {
+    background-color: #ff008c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form.add input[type="submit"]:hover {
+    background-color: #d200b3;
+}

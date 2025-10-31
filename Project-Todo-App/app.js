@@ -1,11 +1,17 @@
+const form = document.querySelector('form.add');
 const addButton = document.querySelector('#addButton');
 const itemToAdd = document.querySelector('#itemToAdd');
 const ul = document.querySelector('.todo');
 
 
-addButton.addEventListener('click', function () {
-    const newItem = createItem(itemToAdd.value);
-    ul.appendChild(newItem);
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    if(itemToAdd.value){
+        const newItem = createItem(itemToAdd.value);
+        ul.appendChild(newItem);
+        itemToAdd.value = '';
+        itemToAdd.focus();
+    }
 });
 
 
@@ -16,6 +22,7 @@ function createItem(val){
 
     span.textContent = val;
     delBtn.textContent = 'Delete';
+    delBtn.classList.add('btn-link');
 
     item.appendChild(span);
     item.appendChild(delBtn);
