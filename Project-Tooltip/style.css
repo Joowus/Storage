@@ -1,0 +1,20 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+nav{
+    padding: 20px;
+}
+
+.btn{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
