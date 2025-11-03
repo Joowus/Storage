@@ -8,8 +8,8 @@ body{
 }
 
 nav{
-    padding: 20px;
-    background-color:aliceblue
+    padding: 10% 40% 10% 40%;
+    overflow:auto;
 }
 
 .btn{
