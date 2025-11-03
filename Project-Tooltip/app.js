@@ -14,4 +14,14 @@ document.addEventListener('DOMContentLoaded', () => {
             text: 'In the contact section, you can find ways to get in touch with the project team.'
         }
     ]
+
+
+    for(var i = 0; i < helpTextList.length; i++){
+        let btn = document.querySelector('#' + helpTextList[i].id);
+
+        btn.addEventListener('mouseenter', () => {
+
+        })
+    }
+
 });
