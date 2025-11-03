@@ -8,8 +8,9 @@ body{
 }
 
 .nah{
-    padding: 10% 30% 10% 30%;
+    padding: 10%;
     overflow: auto;
+    text-align: center;
 }
 
 .btn{
